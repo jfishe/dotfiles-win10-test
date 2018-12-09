@@ -10,5 +10,5 @@ To import the module locally without having to copy it to on of the defualt $psm
 ```PowerShell
 Import-Module .\
 Test-PublicFunction -something 'print something'
-Test-PublicFunction -something 'setting the verbose switch will output the same message to the verbose stream, since the [cmdletingbinding()] decorator was used.
+Test-PublicFunction -something 'setting the verbose switch will output the same message to the verbose stream, since the [cmdletingbinding()] decorator was used.'
 ```
