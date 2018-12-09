@@ -4,7 +4,7 @@
     RootModule = 'PowerShellModuleSkeleton.psm1'
     
     # Version number of this module.
-    ModuleVersion = '0.0.2'
+    ModuleVersion = '0.0.3'
     
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -99,7 +99,7 @@
             # IconUri = ''
     
             # ReleaseNotes of this module
-             ReleaseNotes = "Initial"
+             ReleaseNotes = "Added tests and CI via Azure DevOps."
     
         } # End of PSData hashtable
     

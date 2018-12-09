@@ -16,3 +16,8 @@ Import-Module .\
 Test-PublicFunction -something 'print something'
 Test-PublicFunction -something 'setting the verbose switch will output the same message to the verbose stream, since the [cmdletingbinding()] decorator was used.'
 ```
+### CI/CD via Azure DevOps
+Setting up a build in AzureDevops is trivial, and allows for unit testing with pester and static code analysis using PSSCriptAnalyzer -- followed by a release job that deploys the package to the PowerShell Gallery.
+
+todo: describe setting up build and relase.
+
