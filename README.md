@@ -1,3 +1,7 @@
+| branch | status |
+| ------------- |:-------------:| 
+| master | [![Build status](https://alekj.visualstudio.com/Jouharyan%20Consulting/_apis/build/status/powershell-module-skeleton-CI)](https://alekj.visualstudio.com/Jouharyan%20Consulting/_build/latest?definitionId=3) | 
+
 # PowerShellModuleSkeleton
 Basic skeleton structure for a new PowerShell module with public and private (not exposed to user) function support, tests, and module manifest.
 
