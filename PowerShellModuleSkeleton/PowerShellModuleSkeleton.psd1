@@ -4,13 +4,13 @@
     RootModule = 'PowerShellModuleSkeleton.psm1'
     
     # Version number of this module.
-    ModuleVersion = '0.0.5'
+    ModuleVersion = '0.0.6'
     
     # Supported PSEditions
     # CompatiblePSEditions = @()
     
     # ID used to uniquely identify this module
-    GUID = 'df1985dc-e562-4f08-bbd4-2f677b27e84d'
+    GUID = 'a670c680-3cc7-4aa0-a6bc-34e4c337fb95'
     
     # Author of this module
     Author = '@masmontanas'
