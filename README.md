@@ -21,3 +21,7 @@ Setting up a build in AzureDevops is trivial, and allows for unit testing with p
 
 todo: describe setting up build and relase.
 
+(https://github.com/masmontanas/powershell-module-skeleton/blob/master/summary.PNG)
+
+(https://github.com/masmontanas/powershell-module-skeleton/blob/master/summary_tests.PNG)
+
