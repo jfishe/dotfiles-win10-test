@@ -3,14 +3,16 @@ function Publish-ToPSGallery {
 
     param(
         [Parameter()]
-        [string]$apiKey = $env:apikey
+        [string]$apiKey = $env:apikey,
+
+        [Parameter()]
+        [string]$path
     )
 
     Process 
     {
         try {        
             $ErrorActionPreference = 'stop'
-            $moduleRoot = Split-Path -Path $MyInvocation.MyCommand.Path
             Install-PackageProvider -Name Nuget -Scope CurrentUser -Force -Confirm:$false -ErrorAction Stop -Verbose
             Publish-Module -Path $moduleroot -NuGetApiKey $apiKey -Force -ErrorAction Stop -Verbose
         }
@@ -20,5 +22,5 @@ function Publish-ToPSGallery {
 
     }
 }
-
-Publish-ToPSGallery
+$moduleroot = Split-Path -path $MyInvocation.MyCommand.Path
+Publish-ToPSGallery -path $moduleroot
