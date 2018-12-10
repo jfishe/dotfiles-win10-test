@@ -4,19 +4,19 @@
     RootModule = 'PowerShellModuleSkeleton.psm1'
     
     # Version number of this module.
-    ModuleVersion = '0.0.7'
+    ModuleVersion = '0.0.8'
     
     # Supported PSEditions
     # CompatiblePSEditions = @()
     
     # ID used to uniquely identify this module
-    GUID = 'e9069bdf-d5b9-42bc-b3e8-0328a3469f6b'
+    GUID = '3b7ed15a-439e-406f-9437-d7e2e40ac14f'
     
     # Author of this module
     Author = '@masmontanas'
     
     # Company or vendor of this module
-    CompanyName = 'Jouharyan Consulting, LLC.'
+    # CompanyName = ''
     
     # Copyright statement for this module
     # Copyright = ''
@@ -93,7 +93,7 @@
             # LicenseUri = ''
     
             # A URL to the main website for this project.
-             ProjectUri = 'https://jouharyan.com'
+             ProjectUri = 'https://github.com/masmontanas/powershell-module-skeleton'
     
             # A URL to an icon representing this module.
             # IconUri = ''
