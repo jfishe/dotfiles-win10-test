@@ -7,7 +7,7 @@ Describe 'PS Script Analyzer' {
          It "$rule" {
              If ($analysis.RuleName -contains $rule) {
                  $analysis |
-                      Where RuleName -EQ $rule -outvariable failures |
+                      Where-Object {$_.RuleName -EQ $rule} -outvariable failures |
                       Out-Default
                  $failures.Count | Should Be 0
              }
