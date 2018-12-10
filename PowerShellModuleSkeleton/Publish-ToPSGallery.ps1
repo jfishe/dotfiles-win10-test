@@ -3,6 +3,6 @@ param (
 )      
 
 $ErrorActionPreference = 'stop'
-Install-PackageProvider -Name Nuget -Scope CurrentUser -Force -Confirm:$false -ErrorAction Stop -Verbose
+Install-PackageProvider -Name Nuget -Scope CurrentUser -Force -Confirm:$false -Verbose
 $moduleroot = Split-Path -path $MyInvocation.MyCommand.Path
-Publish-Module -Path $moduleroot -NuGetApiKey $apiKey -Force -ErrorAction Stop -Verbose
+Publish-Module -Path $moduleroot -NuGetApiKey $apiKey -Force -Verbose
