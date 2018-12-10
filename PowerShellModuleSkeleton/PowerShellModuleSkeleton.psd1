@@ -4,13 +4,13 @@
     RootModule = 'PowerShellModuleSkeleton.psm1'
     
     # Version number of this module.
-    ModuleVersion = '0.0.9'
+    ModuleVersion = '1.0.0'
     
     # Supported PSEditions
     # CompatiblePSEditions = @()
     
     # ID used to uniquely identify this module
-    GUID = 'e7c8d345-a415-46d2-a6e5-52a4337485e0'
+    GUID = '644b2620-3eb8-48a8-b273-73f2488e6f84'
     
     # Author of this module
     Author = '@masmontanas'
@@ -99,7 +99,10 @@
             # IconUri = ''
     
             # ReleaseNotes of this module
-             ReleaseNotes = "Working project skeleton with unit tests, static code analysis and ci/cd."
+             ReleaseNotes = "-Working project skeleton with unit tests, static code analysis and ci/cd.
+                             -Seperated static code analysis from unit tests for better control of build pipeline.
+             
+             "
     
         } # End of PSData hashtable
     
