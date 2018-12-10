@@ -5,4 +5,4 @@ Install-Module -Name PSScriptAnalyzer -Scope CurrentUser -Force -Confirm:$false
 Import-Module Pester -Verbose
 Import-Module PSScriptAnalyzer -Verbose
 
-Invoke-Pester -OutputFile 'UnitTestResults.xml' -OutputFormat 'NUnitXml' -Script 'PowerShellModuleSkeleton\Tests\PowerShellModuleSkeleton.tests.ps1'
+Invoke-Pester -OutputFile 'PSSAResults.xml' -OutputFormat 'NUnitXml' -Script 'PowerShellModuleSkeleton\Tests\PSSA.tests.ps1'
