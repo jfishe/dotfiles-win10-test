@@ -3,7 +3,7 @@ function Publish-ToPSGallery {
 
     param(
         [Parameter()]
-        [string]$apiKey = $env:apikey,
+        [string]$apiKey,
 
         [Parameter()]
         [string]$path
@@ -22,5 +22,8 @@ function Publish-ToPSGallery {
 
     }
 }
+
+# set location to script's location (module root). Apikey variable is set by task, 
+# since secret variables can't be referenced driectly from the powershell task.
 $moduleroot = Split-Path -path $MyInvocation.MyCommand.Path
 Publish-ToPSGallery -path $moduleroot
