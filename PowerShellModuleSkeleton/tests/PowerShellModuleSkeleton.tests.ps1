@@ -40,6 +40,10 @@ Describe PowerShellModuleSkeleton {
 
     Context Test-PublicFunction {
         
+        It "Should execute with default parameters." {
+            { Test-PublicFunction } | Should -Not -Throw
+        }
+
         It "Should return a string." {
             $result = Test-PublicFunction
             $result | Should -BeOfType System.string
