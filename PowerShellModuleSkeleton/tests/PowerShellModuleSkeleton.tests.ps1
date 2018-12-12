@@ -38,9 +38,12 @@ Describe PowerShellModuleSkeleton {
 
     }
 
-    # todo: unit tests for function
     Context Test-PublicFunction {
-    
+        
+        It "Should return a string." {
+            $result = Test-PublicFunction
+            $result | Should -BeOfType System.string
+        }
     }
 
 }
